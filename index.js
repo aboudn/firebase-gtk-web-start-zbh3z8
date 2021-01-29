@@ -78,7 +78,7 @@ firebase.auth().onAuthStateChanged((user) => {
 
  }
  else{
-   startRsvpButton.textContent = "RSVP";
+   startRsvpButton.textContent = "Login";
    // Hide guestbook for non-logged-in users
    guestbookContainer.style.display = "none";
     // Unsubscribe from the guestbook collection
